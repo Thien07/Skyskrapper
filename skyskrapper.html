@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyskrapere</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="title-box">
+            <h1>Verdens tre høyeste skyskrapere</h1>
+        </div>
+ 
+        <table>
+            <thead>
+                <tr>
+                    <th>Skyskraper</th>
+                    <th>Høyde</th>
+                    <th>By</th>
+                    <th>Land</th>
+                    <th>Byggeår</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Burj Khalifa</td>
+                    <td>828 m</td>
+                    <td>Dubai</td>
+                    <td>De forente arabiske emirater</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>Shanghai Tower</td>
+                    <td>632 m</td>
+                    <td>Shanghai</td>
+                    <td>Kina</td>
+                    <td>2014</td>
+                </tr>
+                <tr>
+                    <td>Makkah Royal Clock Tower</td>
+                    <td>601 m</td>
+                    <td>Mekka</td>
+                    <td>Saudi-Arabia</td>
+                    <td>2011</td>
+                </tr>
+            </tbody>
+        </table>
+       
+        <div class="image-gallery">
+            <article class="burj">
+                <a href="https://en.wikipedia.org/wiki/Burj_Khalifa"><img src="burj_stor.jpg" alt=""></a>
+            </article>
+            <article class="shanghai">
+                <a href="https://en.wikipedia.org/wiki/Shanghai_Tower"><img src="Shanghai_stor.jpg" alt=""></a>
+            </article>
+            <article class="makkah">
+                <a href="https://en.wikipedia.org/wiki/The_Clock_Towers"><img src="Makkah_stor.jpg" alt=""></a>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #f6f5f4;
+            color: #404040;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .container {
+            background-color: black;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 100vw;
+            height: 100vh;
+        }
+ 
+        .title-box {
+            background-color: #2F4F4F;
+            padding: 10px;
+            color: white;
+            margin-bottom: 20px;
+        }
+ 
+        h1 {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+ 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+ 
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+ 
+        th {
+            background-color: #3f5765;
+            color: white;
+        }
+ 
+        td {
+            background-color: #bdd4de;
+        }
+ 
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+ 
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border: none;
+            margin: 0;
+            padding: 0;
+            height: 150%;
+        }
+       
+    </style>
